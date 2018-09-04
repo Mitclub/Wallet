@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/MITFC.Eth.Wallet/bin/Debug/Geth/MITFC/geth/chaindata
+/MITFC.Eth.Wallet/bin/Debug/Geth/MITFC/geth/nodes
+/MITFC.Eth.Wallet/bin/Debug/Geth/MITFC/geth/transactions.rlp
+/MITFC.Eth.Wallet/bin/Debug/Geth/MITFC/geth/nodekey
+/MITFC.Eth.Wallet/bin/Debug/Geth/MITFC/geth/LOCK
+/MITFC.Eth.Wallet/bin/Debug/Geth/MITFC/history
+/MITFC.Eth.Wallet/bin/Debug/Geth/MITFC/keystore
+/MITFC.Eth.Wallet/bin/Debug/Geth/MITFC/testnet
+/MITFC.Eth.Wallet/bin/Debug/Geth/MITFC/geth/ethash
+/MITFC.Eth.Wallet/bin/Debug/Geth/MITFC/geth/lightchaindata
