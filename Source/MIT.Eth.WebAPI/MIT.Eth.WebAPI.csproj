@@ -253,6 +253,20 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MIT.Eth.Common\MIT.Eth.Common.csproj">
+      <Project>{eef752a3-df3a-4241-8e0a-e673df1fe798}</Project>
+      <Name>MIT.Eth.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MIT.Eth.ETHNethereum\MIT.Eth.ETHNethereum.csproj">
+      <Project>{55f3b3ff-1542-4444-a16e-397a6d7ddcf3}</Project>
+      <Name>MIT.Eth.ETHNethereum</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MIT.Eth.Model\MIT.Eth.Model.csproj">
+      <Project>{932e9b59-c95f-45f4-b230-e3e515444850}</Project>
+      <Name>MIT.Eth.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
