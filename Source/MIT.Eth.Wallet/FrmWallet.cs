@@ -46,7 +46,7 @@ namespace MIT.Eth.Wallet
                 Control.CheckForIllegalCrossThreadCalls = false;
 
                 // start geth
-                ClsConsole.startGeth();
+                //ClsConsole.startGeth();
 
                 //bgwkUpdate.RunWorkerAsync();
                 timUpdate.Interval = 1000 * 30;

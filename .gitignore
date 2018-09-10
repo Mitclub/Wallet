@@ -3,3 +3,5 @@
 ################################################################################
 
 /Source/MIT.Eth.Common/bin/Debug
+/Source/MIT.Eth.Common/obj/Debug
+/Source/MIT.Eth.ETHNethereum/bin/Debug
