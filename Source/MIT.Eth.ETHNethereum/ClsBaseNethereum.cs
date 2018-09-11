@@ -6,6 +6,7 @@ using Nethereum.Web3;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
+using System.Configuration;
 
 namespace MIT.Eth.ETHNethereum
 {
@@ -14,9 +15,9 @@ namespace MIT.Eth.ETHNethereum
         private static string m_RpcUrl_Infura = $"{Consts.M_RPCServerUrl + Consts.M_Infura_ApiKey}";
         public static Web3 M_Web3_Infura = new Web3(m_RpcUrl_Infura);
 
-        private static string m_RpcUrl = "http://localhost:8545";
-        public static Web3 M_Web3_Geth = new Web3(m_RpcUrl);
-        //public static Web3Geth M_Web3Geth = new Web3Geth(m_RpcUrl);
+        //private static string m_RpcUrl = "http://localhost:8545";
+        public static string chainServerIP = ConfigurationManager.AppSettings["RpcServerIP"].ToString();
+        public static Web3 M_Web3_Geth = new Web3($"http://{chainServerIP}:9090");
 
         private static string defultAccount = "";
         public static string M_DefultAccount
