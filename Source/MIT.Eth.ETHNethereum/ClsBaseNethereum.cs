@@ -12,6 +12,7 @@ namespace MIT.Eth.ETHNethereum
 {
     public partial class ClsNethereum
     {
+        #region Property
         private static string m_RpcUrl_Infura = $"{Consts.M_RPCServerUrl + Consts.M_Infura_ApiKey}";
         public static Web3 M_Web3_Infura = new Web3(m_RpcUrl_Infura);
 
@@ -66,7 +67,9 @@ namespace MIT.Eth.ETHNethereum
             }
         }
 
+        #endregion
 
+        #region Function
         /// <summary>
         /// need start geth first
         /// </summary>
@@ -203,5 +206,7 @@ namespace MIT.Eth.ETHNethereum
             }
             return result;
         }
+
+        #endregion
     }
 }

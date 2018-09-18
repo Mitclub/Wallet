@@ -178,6 +178,11 @@ namespace MIT.Eth.Wallet
             return true;
         }
 
+        private void aboutMITToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FrmAbout().ShowDialog();
+        }
+
         #endregion
 
         #region Function
@@ -243,10 +248,5 @@ namespace MIT.Eth.Wallet
         }
 
         #endregion
-
-        private void aboutMITToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new FrmAbout().ShowDialog();
-        }
     }
 }
