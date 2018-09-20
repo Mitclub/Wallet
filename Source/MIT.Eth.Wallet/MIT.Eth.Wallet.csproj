@@ -145,9 +145,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Configs.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="logo.ico" />
     <None Include="Resources\ETH.jpg" />
     <None Include="Resources\logo50.png" />
