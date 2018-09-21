@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MIT.Eth.Wallet")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("MITWallet")]
+[assembly: AssemblyDescription("MIT blockchain proposes a new fundamental infrastructure for the next-generation blockchain, establishes a high-performance blockchain platform with balanced scalability, security and efficiency, and forms its own cross-chain collaboration technology and protocol system to realize peer-to-peer value transferring and chain-to-chain collaboration. By applying these core technologies and the characteristics of blockchain technology such as decentralization and non- tampering, our system will serve supply-chain finance, digital assets, equity bonds, supply chain provenance , financial credit and other industries.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MIT.Eth.Wallet")]
+[assembly: AssemblyCompany("Mundellian Infrastructure Technology")]
+[assembly: AssemblyProduct("MITWallet")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
